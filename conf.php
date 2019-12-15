@@ -30,7 +30,7 @@ define('KNPROXY_CACHE_MODE','none');
 //Show a warning when using HTTPS for the first time?
 define('KNPROXY_HTTPS_WARNING','off');//on, off
 // Referer mode
-define('KNPROXY_REFERER','pseudo');//pseudo, disable, auto
+define('KNPROXY_REFERER','auto');//pseudo, disable, auto
 define('KNPROXY_ENCRYPT_PAGE','false');//是否加密页面，一般来说GFW不强烈时没必要启用
 
 //Only set to false if errors occur on JS-Rich pages 
